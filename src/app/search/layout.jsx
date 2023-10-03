@@ -1,4 +1,5 @@
 import SearchHeader from "@/components/SearchHeader";
+import "../globals.css";
 
 import { Inter } from "next/font/google";
 
