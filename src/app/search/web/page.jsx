@@ -1,4 +1,4 @@
-import WebSearchResults from "@/components/webSearchResults";
+import WebSearchResults from "@/components/WebSearchResults";
 import Link from "next/link";
 
 export default async function page({ searchParams }) {
