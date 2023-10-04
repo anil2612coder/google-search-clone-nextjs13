@@ -4,6 +4,7 @@ import SearchBox from "./SearchBox";
 import { RiSettings3Line } from "react-icons/ri";
 import { TbGridDots } from "react-icons/tb";
 import SearchHeaderOprions from "./SearchHeaderOprions";
+
 export default function SearchHeader() {
   return (
     <header className="sticky top-0  bg-white">
@@ -19,6 +20,7 @@ export default function SearchHeader() {
         <div className="flex-1">
           <SearchBox />
         </div>
+
         <div className="hidden sm:inline-flex space-x-2">
           <RiSettings3Line className="header-icon" />
           <TbGridDots className="header-icon" />
